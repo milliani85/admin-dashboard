@@ -12,20 +12,29 @@
 </head>
 <body>
     <div class="main-container">
-
-        <div class="header">
-            <label for="search">Search</label>
-            <input type="search" id="search" name="search">
-            <p>Robert Miller</p>
-            <p>Hi there</p>
-            <h1>Robert Miller (@Rob)</h1>
-            <div class="nav-buttons-container">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
-            </div>
+        <div class="header">            
+                <div class="search-container">
+                    <img src="./images/magnify.svg" alt="search icon">
+                    <input type="search" id="search" name="search">
+                </div>
+                <div class="profile-container">
+                    <img src="./images/bell-ring-outline.svg" alt="notification icon">
+                    <img src="./images/pngwing.com.png" alt="profile picture" class="small-profile-picture">
+                    <h5>Robert Miller</h5>
+                </div>        
+                <div class="welcome-container">
+                    <img src="./images/pngwing.com.png" alt="profile picture" class="large-profile-picture">
+                    <div>
+                        <p>Hi there,</p>
+                        <h1>Robert Miller (@robmiller85)</h1>
+                    </div>
+                </div>
+                <div class="nav-buttons-container">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>            
         </div>
-
         <div class="sidebar">
             <div class="sidebar-header">
                 <img src="./images/view-grid.svg" alt="grid logo"> Dashboard</div>
@@ -72,49 +81,83 @@
             </div> 
         </div>
 
-        <div class="main-content">
-            <h2>Your Projects</h2>
-            <div class="project">
-                <h4>Project</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, corporis quidem ut modi vitae dolor voluptates placeat, itaque sequi sunt aperiam a perferendis. Distinctio incidunt explicabo architecto, quas eaque nemo.</p>
-            </div>
-            <div class="project">
-                <h4>Project</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, cupiditate officia laudantium voluptatibus hic culpa ad laboriosam asperiores sequi sunt magni, sint fuga veritatis rem? Sit voluptates maiores aliquam dolorem!</p>
-            </div>
-            <div class="project">
-                <h4>Project</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio possimus ullam error rerum, non minus neque sequi tenetur quibusdam recusandae. Sapiente voluptatum blanditiis doloribus nobis reiciendis eaque saepe neque eos.</p>
-            </div>
-            <div class="project">
-                <h4>Project</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste nemo illo, voluptas est inventore laboriosam numquam officia tenetur. Ipsa ullam aperiam nulla aliquam id non blanditiis fugiat, quod deserunt iste.</p>
-            </div>
-            <div class="project">
-                <h4>Project</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum vero. Reiciendis temporibus, ipsa quod similique quis molestias necessitatibus molestiae voluptas illum autem inventore iste corrupti cupiditate excepturi nesciunt nihil?</p>
-            </div>
-            <div class="project">
-                <h4>Project</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sapiente modi inventore tenetur repellat praesentium quae magni ex facilis eveniet. Aspernatur asperiores recusandae quis aperiam enim quia blanditiis tempore dolor!</p>
-            </div>
-
-            <h2>Announcements</h2>
-            <div class="announcements">
-                <h5>Site Maintenance</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam harum esse accusantium assumenda laborum adipisci magnam dolore corrupti a obcaecati mollitia, in ipsa, aperiam delectus soluta, eius porro dolores temporibus.</p>
-                <h5>Community Share Day</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates maiores incidunt eveniet architecto dolor quaerat deleniti perferendis quam distinctio placeat sequi, veniam ratione iure culpa rerum. Officiis magnam voluptatem ea!</p>
-                <h5>Updated Privacy Policy</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum recusandae natus explicabo exercitationem excepturi, maiores quidem, rerum soluta ab a dicta doloribus quis ullam quos est suscipit debitis ratione.</p>
-            </div>
-
-            <h2>Trending</h2>
-            <div class="trending">
-                <p>@tegan</p>
-                <p>@morgan</p>
-                <p>@kendall</p>
-                <p>@alex</p>
+        <div class="main-content"> 
+           <div class="projects-header">
+                <h2>Your Projects</h2>
+           </div>
+            <div class="project-container">                
+                <div class="project">
+                    <h4>Project</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, corporis quidem ut modi vitae dolor voluptates placeat, itaque sequi sunt aperiam a perferendis. Distinctio incidunt explicabo architecto, quas eaque nemo.</p>
+                    <div>
+                        <img src="./images/star-plus-outline.svg" alt="add icon with star">
+                        <img src="./images/eye-plus-outline.svg" alt="add icon with eye">
+                        <img src="./images/share-variant.svg" alt="share icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, cupiditate officia laudantium voluptatibus hic culpa ad laboriosam asperiores sequi sunt magni, sint fuga veritatis rem? Sit voluptates maiores aliquam dolorem! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div>
+                        <img src="./images/star-plus-outline.svg" alt="add icon with star">
+                        <img src="./images/eye-plus-outline.svg" alt="add icon with eye">
+                        <img src="./images/share-variant.svg" alt="share icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio possimus ullam error rerum, non minus neque sequi tenetur quibusdam recusandae. Sapiente voluptatum blanditiis doloribus nobis reiciendis eaque saepe neque eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div>
+                        <img src="./images/star-plus-outline.svg" alt="add icon with star">
+                        <img src="./images/eye-plus-outline.svg" alt="add icon with eye">
+                        <img src="./images/share-variant.svg" alt="share icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste nemo illo, voluptas est inventore laboriosam numquam officia tenetur. Ipsa ullam aperiam nulla aliquam id non blanditiis fugiat, quod deserunt iste.</p>
+                    <div>
+                        <img src="./images/star-plus-outline.svg" alt="add icon with star">
+                        <img src="./images/eye-plus-outline.svg" alt="add icon with eye">
+                        <img src="./images/share-variant.svg" alt="share icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum vero. Reiciendis temporibus, ipsa quod similique quis molestias necessitatibus molestiae voluptas illum autem inventore iste corrupti cupiditate excepturi nesciunt nihil?</p>
+                    <div>
+                        <img src="./images/star-plus-outline.svg" alt="add icon with star">
+                        <img src="./images/eye-plus-outline.svg" alt="add icon with eye">
+                        <img src="./images/share-variant.svg" alt="share icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h4>Project</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sapiente modi inventore tenetur repellat praesentium quae magni ex facilis eveniet. Aspernatur asperiores recusandae quis aperiam enim quia blanditiis tempore dolor!</p>
+                    <div>
+                        <img src="./images/star-plus-outline.svg" alt="add icon with star">
+                        <img src="./images/eye-plus-outline.svg" alt="add icon with eye">
+                        <img src="./images/share-variant.svg" alt="share icon">
+                    </div>
+                </div>
+            </div>            
+            <div class="anouncement-trending-container">
+                <h2>Announcements</h2>
+                    <div class="announcements">
+                        <h5>Site Maintenance</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam harum esse accusantium assumenda laborum adipisci magnam dolore corrupti a obcaecati mollitia, in ipsa, aperiam delectus soluta, eius porro dolores temporibus.</p>
+                        <h5>Community Share Day</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates maiores incidunt eveniet architecto dolor quaerat deleniti perferendis quam distinctio placeat sequi, veniam ratione iure culpa rerum. Officiis magnam voluptatem ea!</p>
+                        <h5>Updated Privacy Policy</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum recusandae natus explicabo exercitationem excepturi, maiores quidem, rerum soluta ab a dicta doloribus quis ullam quos est suscipit debitis ratione.</p>
+                    </div>
+                    <h2>Trending</h2>
+                    <div class="trending">
+                        <p>@tegan</p>
+                        <p>@morgan</p>
+                        <p>@kendall</p>
+                        <p>@alex</p>
+                    </div>
             </div>
         </div>   
     </div>
