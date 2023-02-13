@@ -184,10 +184,20 @@ ul {
   list-style: none;
 }
 
+/* li:hover {
+  transform: scale(1.1);
+} */
+
 .sidebar-menu ul div {
   display: flex;
   align-items: center;
   padding-bottom: 30px;
+  transition: transform 0.2s ease-in-out;
+  transform-origin: left center;
+}
+
+.sidebar-menu ul div:hover {
+  transform: scale(1.1);
 }
 
 .header img[src$=".svg"] {
@@ -266,6 +276,10 @@ ul {
   font-weight: bold;
   width: 90px;
   margin: 0 10px 0 10px;
+}
+
+.nav-buttons-container button:hover {
+  background-color: #f0b429;
 }
 
 .main-content {
