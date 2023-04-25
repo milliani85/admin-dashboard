@@ -1,6 +1,6 @@
 # Admin Dashboard
 
-https://milliani85.github.io/Admin-Dashboard/
+https://milliani85.github.io/admin-dashboard/
 
 **Description:** 
 
